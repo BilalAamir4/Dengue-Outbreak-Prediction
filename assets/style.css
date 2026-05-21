@@ -1,0 +1,69 @@
+/* Dengue Prediction Dashboard — Custom Styles */
+
+/* Main header */
+h1 {
+    color: #1E3A5F !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    color: #2563EB !important;
+}
+
+h3 {
+    color: #059669 !important;
+}
+
+/* Metric cards */
+[data-testid="metric-container"] {
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #1E3A5F;
+}
+
+[data-testid="stSidebar"] .stMarkdown,
+[data-testid="stSidebarNav"] span,
+[data-testid="stSidebarNav"] div {
+    color: #F1F5F9 !important;
+}
+
+/* Buttons */
+.stButton > button[kind="primary"] {
+    background-color: #2563EB !important;
+    color: white !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+
+.stButton > button[kind="primary"]:hover {
+    background-color: #1D4ED8 !important;
+}
+
+/* Tables */
+[data-testid="stDataFrame"] {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Info boxes */
+.stInfo {
+    background-color: #EFF6FF;
+    border-left: 4px solid #2563EB;
+}
+
+/* Success boxes */
+.stSuccess {
+    border-left: 4px solid #059669;
+}
+
+/* Error boxes */
+.stError {
+    border-left: 4px solid #DC2626;
+}
