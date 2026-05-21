@@ -23,9 +23,9 @@ A machine learning web application that predicts dengue fever outbreaks and case
 dengue_project/
 │
 ├── data/
-│   └── dengue_training_60k.csv       # 60,000 rows, 31 features (not tracked by git)
+│   └── dengue_training_60k.csv       # 60,000 rows, 31 features 
 │
-├── models/                           # Trained model artifacts (not tracked by git)
+├── models/                           # Trained model artifacts 
 │   ├── clf_rf_model.pkl
 │   ├── clf_xgb_model.pkl
 │   ├── clf_scaler.pkl
